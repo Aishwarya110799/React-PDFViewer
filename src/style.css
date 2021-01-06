@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+	margin:0;
+	padding:0; font-family:Roboto; box-sizing:border-box;
+}
+
+body
+{
+	background: linear-gradient(60deg,#111,#888);
+	display: flex;
+	width:100%;
+	flex-direction: column;
+	min-height: 100vh
+}
+	
+.container
+{
+	display: flex;
+	width:100%;
+	flex-direction: column;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.navbar
+{
+	display: flex;
+	width:100%;
+	align-items:center;
+	background: #fff;
+	position: sticky;
+	top:0;
+	z-index:1;
+	padding: 5px 20px;
+}
+
+.navbar h3{
+	font-size: 2em;
+}
+
+.btn
+{
+	border: none; background: none; outline:none;
+	padding: 3px 6px; font-size: 1.4em;
+	border: 2px solid #111;
+	transition: 0.5s all ease;
+	margin: 0 10px;
+}
+
+.pdf-info
+{
+	display: flex;
+	align-items: center;
+}
+
+.pdf-info span
+{
+	height:30px; width:30px; display: inline-black;
+	text-align: center; line-height:30px;
+    background: #111;
+	color: #fff;
+	border-radius: 50%;
+	margin: 0 10px;
+}
+
+.btn:hover
+{
+	background: #111; color: #fff;
+}
+
+.btn .fast
+{
+	height:20px; width:20px; display: inline-black;
+	text-align: center; line-height:20px;
+	margin:0 3px;
+}
+
+.file-selector
+{
+	height:40px; width:40px; display: inline-black;
+	text-align: center; line-height:40px;
+	font-size: 1.2em;
+	border:2px solid #111;
+	border-radius: 50%;
+	margin: 0 5px;
+}
+
+.pdf-viewer
+{
+	margin-top:20px;
+}
